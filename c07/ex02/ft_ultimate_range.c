@@ -34,37 +34,3 @@ int		ft_ultimate_range(int **range, int min, int max)
 	}
 	return (len);
 }
-
-
-
-//include <stdlib.h>
-//
-//nt	ft_ultimate_range(int **range, int min, int max)
-//
-//	int size;
-//	int i;
-//	int *array;
-//
-//	if (min >= max)
-//	{
-//		*range = 0;
-//		return (0);
-//	}
-//	size = max - min;
-//	array = malloc(size * sizeof(int));
-//	if (array == NULL)
-//	{
-//		*range = 0;
-//		return (-1);
-//	}
-//	*range = array;
-//	i = 0;
-//	while (i <= size)
-//	{
-//		array[i] = min;
-//		i++;
-//		min++;
-//	}
-//	return (size);
-//
-//
